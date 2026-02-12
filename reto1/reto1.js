@@ -23,7 +23,7 @@ function resultadoFinal (promedio){
 function mostrarResultado(nombre, nota1, nota2, nota3) {
     let promedio = calcularPromedio(nota1, nota2, nota3);
     let resultado = resultadoFinal (promedio);
-    return "El estudiante " +nombre+ " tiene un promedio de " +promedio+ " y su estado es " +resultado;
+    return "El estudiante " +nombre+ " tiene un promedio de " +promedio+ " y su estado es de: " +resultado;
 }
 
 console.log(mostrarResultado("Jose", 4.0, 3.5, 2.8));
